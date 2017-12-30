@@ -1,0 +1,145 @@
+			body{
+				background-color: wheat;
+			}
+			h3{
+				font-family: 'Sedgwick Ave Display';
+				font-weight: 100;
+				text-align: left;
+				color: darkcyan;
+				margin: 0px 0px 8px 0px;
+			}
+			hr{
+				border: 1px solid gold;
+				margin: 4px 0px 4px 0px;
+			}
+			#tb{
+				vertical-align: middle;
+				text-align: center;
+				width: 100%;
+			}
+			.beside{
+				width: 10%;
+			}
+			.us{
+				background-color: gold;
+				background:radial-gradient(75% 75%, goldenrod 30%, wheat, wheat);
+				font-size: 100%;
+				font-weight: bold;
+				width: 20%;
+				border-radius: 30%;
+				color:darkcyan;
+			}
+			.us:hover{
+				background:radial-gradient(50% 60%, darkgoldenrod,goldenrod, wheat);
+			}
+			#lev{
+				font-size: 100%;
+				width: 40%;
+				background-color:goldenrod;
+				border-radius: 40%;
+				color:#FFFADF;
+			}
+			#lev table{
+				text-align: center;
+				vertical-align: middle;
+				width: 100%;
+				border-collapse: collapse;
+				padding:0px;
+				margin:0px;
+			}
+			#lev table tr td{
+				text-align: center;
+				vertical-align: middle;
+				border-collapse: collapse;
+				padding:0px;
+				margin:0px;
+				}
+			#xus{
+				text-align: center;
+			}
+			#ous{
+				text-align: center;
+			}
+			#img_man{
+				height: 75px;
+				border-bottom:2px solid goldenrod;
+			}
+			#img_man:hover{
+				background:-webkit-linear-gradient(left, goldenrod, gold, goldenrod);
+				background:-o-linear-gradient(left, goldenrod, gold, goldenrod);
+				background:linear-gradient(to right, goldenrod, gold, goldenrod);
+				border-bottom:2px solid gold;
+			}
+			#img_pc{
+				font-size: 100%;
+				height: 60px;
+				border-bottom:2px solid goldenrod;
+			}
+			#img_pc:hover{
+				background:linear-gradient(180deg, goldenrod, lightblue, goldenrod);
+				border-bottom:2px solid gold;
+			}
+			#slev{
+        display:none;
+				background-color: wheat;
+				background:linear-gradient(180deg, goldenrod 40%, gold 110%);
+				box-shadow: 0px 0px 8px gold;
+			}
+			#slev:hover{
+				background:linear-gradient(180deg, gold 20%, goldenrod 130%);
+				background-color: wheat;
+				box-shadow: 0px 0px 40px gold;
+			}
+			#playwith{
+				background:radial-gradient(60% 55%, darkgoldenrod, goldenrod);
+			}
+			#gtb{
+				vertical-align: middle;
+				background-image: url(https://raw.githubusercontent.com/MohamedAbulnasr/img/master/ob7.png);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				padding: 0px;
+				margin: 0px;
+				border-width: 0px;
+			}
+		.brick{
+				padding: 0px;
+				margin: 0px;
+				border-collapse: collapse;	
+			}
+		.brick:hover{
+				background:radial-gradient(45% 50%, rgba(255,0,0,0) 10%, rgb(224,196,148)	, tan, rgb(224,196,148), rgba(255,0,0,0)); 
+				opacity: 0.4;
+				/*background: linear-gradient(45deg,cyan 40%, yellow 40%, green 100%); /* Standard syntax (must be last) */
+		}
+		footer{
+			background: linear-gradient(180deg, red,white,black);
+			border-radius:40%;
+			opacity:0.7;
+			text-align: center;
+			font-weight: bold;
+			color: darkgoldenrod;
+		}
+		#winner{
+			position: absolute;
+			display:none;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+			background-color: lightcyan;
+			opacity:0.8;
+			text-align:center;
+		}
+		#winner div{
+			position: absolute;
+			font-size:2em;
+			font-weight: bold;
+			color: white;
+			background-color:darkcyan;			
+			border-radius: 100px;
+			padding: 1.2%;
+		}
+		#winner .wImg{
+			position: absolute;
+		}
